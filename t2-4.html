@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task2-4</title>
+</head>
+
+<body>
+    <script>
+        var inputString = prompt("Please enter a string:");
+
+
+        if (inputString !== "") {
+
+            var reversedString = "";
+            for (var i = inputString.length - 1; i >= 0; i--) {
+                reversedString += inputString[i];
+            }
+
+
+            alert("The reversed string is: " + reversedString);
+        } else {
+            alert("Please enter a valid string.");
+        }
+
+    </script>
+
+</body>
+
+</html>
